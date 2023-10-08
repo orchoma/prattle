@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "username": "Olivia Choma",
+      "handle": "livchoma",
+      "bio": "Junior Full Stack Software Developer",
+      "img": "https://i.imgur.com/NxuL2J7.jpg",
+      "followers": [
+        {
+          "user_uuid": "5fba544b-cfdb-48ad-acf9-a945e305987e"
+        },
+        {
+          "user_uuid": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43c7"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "5fba544b-cfdb-48ad-acf9-a945e305987e",
+      "username": "Sample User 2",
+      "handle": "sampleuser2",
+      "bio": "rando trying out an app from another rando's portfolio",
+      "img": "https://i.imgur.com/rbqukre.jpg[/img]",
+      "followers": [
+        {
+          "user_uuid": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef"
+        },
+        {
+          "user_uuid": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43c7"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43c7",
+      "username": "Sample User 3",
+      "handle": "sampleuser3",
+      "bio": "rando trying out an app from another rando's portfolio",
+      "img": "https://i.imgur.com/RnmupTM.jpg",
+      "followers": [
+        {
+          "user_uuid": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef"
+        },
+        {
+          "user_uuid": "5fba544b-cfdb-48ad-acf9-a945e305987e"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "timestamp": "Sun Aug 27 2023 18:53:28 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "It is a serious thing just to be alive on this fresh morning in this broken world.' - Mary Oliver",
+      "likes": []
+    },
+    {
+      "id": 2,
+      "timestamp": "Sun Aug 27 2023 18:53:28 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43c7",
+      "reply_to": null,
+      "text": "The quality of mercy is not strained!",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Sun Aug 27 2023 20:53:28 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43c7",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": 1,
+      "text": "love Mary Oliver!!",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-09-04T20:40:16.108Z",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": null,
+      "text": "this is my new Thread!",
+      "likes": [],
+      "id": 4
+    },
+    {
+      "timestamp": "2023-09-04T20:40:16.108Z",
+      "thread_from": "a8b61c2c-0ff1-4c99-b5ec-5507edcd43cf",
+      "thread_to": "null",
+      "reply_to": null,
+      "text": "Art is the Contemplation of the world in a state of grace - Hermann Hesse",
+      "likes": [],
+      "id": 5
+    },
+    {
+      "timestamp": "2023-09-04T21:36:27.308Z",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": 1,
+      "text": "hiii",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-09-04T22:14:12.054Z",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": null,
+      "text": "hellu",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-09-05T21:44:48.023Z",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": null,
+      "text": "yo",
+      "likes": [],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-10-04T15:34:57.113Z",
+      "thread_from": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "thread_to": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef",
+      "reply_to": 7,
+      "text": "rghjfghdfghdfg",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-10-04T15:34:57.113Z",
+      "thread_from": "5fba544b-cfdb-48ad-acf9-a945e305987e",
+      "thread_to": "5fba544b-cfdb-48ad-acf9-a945e305987e",
+      "reply_to": null,
+      "text": "HELLO THIS IS A TEST",
+      "likes": [
+        {
+          "user_uuid": "8e2c0f1d-ded4-4e76-a529-a6b18f25a0ef"
+        }
+      ],
+      "id": 10
+    }
+  ]
+}

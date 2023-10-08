@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;}
+
+.app{
+
+  height: 100vh;
+  width: 90vw;
+  padding: 2rem;
+  background-color: white;
+}
+
+h1, h2, p {
+  margin: .5rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: .2rem;
+  color: rgb(0, 0, 0);
+}
+
+.sub-text{
+  color: rgb(121, 121, 121);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+
+}
+
+
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: .2rem;
+  margin-bottom: 1.5rem;
+  margin-top: .5rem;
+}
+
+.logo{
+  width: 150px;
+  margin-bottom: .5rem;
+}
+
+.header .info-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header .img-container {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+
+
+  margin-right: 2rem;
+}
+
+.img-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-container img{
+  height: 150%;
+}
+
+.header .img-container img{
+  height: 110%;
+}
+
+.header .post-info{
+  background-color: pink;
+  color: gray;
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 20px;
+
+}
+
+button.primary{
+  border: black solid 1px;
+  background-color: transparent;
+  padding: 7px;
+  margin: 15px 0;
+  border-radius: 7px;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.button-container button{
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  color: black;
+  width: 50%;
+  border-bottom: solid 1px black;
+}
+
+.button-container button.current{
+  border-bottom: solid 2px black;
+
+}
+
+.post-card .icons svg{
+
+  height: 25px;
+  padding:0 5px ;
+}
+
+.post-card {
+  border-bottom: solid 1px rgb(208, 208, 208);
+  padding: 1.5rem 0;
+}
+
+.post-card .text-container {
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem;
+
+}
+
+.feed-card .img-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed-card .img-container img {
+  height: 110%;
+}
+
+.feed{
+  height: 57%;
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+input{
+  background-color: transparent;
+  border: solid 1px black;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: black;
+}
+
+input:focus{
+  outline: none;
+}
+
+.popup{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 650px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: gray;
+  padding: 20px;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0 -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0 -3px 5px;
+
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.write-icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.write-icon {
+  height: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+
+.like-icon{
+  fill: black
+}
+
+
+
+.like-icon-activated{
+
+  fill: red;
+
+}
